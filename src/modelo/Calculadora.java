@@ -12,5 +12,9 @@ public class Calculadora {
 		return mr;
 	}
 	
+	public int multiplicacion (int x, int y) {
+		mr = x * y;
+		return mr;
+	}
 
 }
