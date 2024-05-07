@@ -1,9 +1,15 @@
 package modelo;
 
 public class Calculadora {
-
+	private int mr;
+	
 	public Calculadora() {
-		// TODO Auto-generated constructor stub
+		mr = 0;
+	}
+	
+	public int suma(int x, int y) {
+		mr = x + y;
+		return mr;
 	}
 
 }
